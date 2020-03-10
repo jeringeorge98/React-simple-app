@@ -13,7 +13,7 @@ const CardSection = props => {
         borderColor: '#ddd',
         position: 'relative',
       }}>
-      <Text>{props.children}</Text>
+      {props.children}
     </View>
   );
 };
